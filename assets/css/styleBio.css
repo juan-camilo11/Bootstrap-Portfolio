@@ -1,0 +1,47 @@
+body {
+
+    height: 100%;
+    background: #bababb
+    /* background-image: url("../images/light-grey-terrazzo.png") */
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid;
+    border-color: #343a40;
+    background-color: #f8f9fa;
+
+}
+
+.containerContent {
+
+    
+    position: relative;
+    min-height:100%;
+}
+
+
+
+
+@media screen and (max-width: 415px) {
+   
+        .footer {
+            position: static;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            border-top: 1px solid;
+            border-color: #343a40;
+            background-color: #f8f9fa;
+    
+        }
+
+    
+
+}
+
