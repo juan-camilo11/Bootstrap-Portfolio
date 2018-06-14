@@ -46,9 +46,9 @@ body {
 
 
 
-@media screen and (min-width: 1199px) {
+@media screen and (max-width: 575px) {
 
-    @media screen and (max-height: 750px) {
+    @media screen and (max-height: 670px) {
    
     .footer {
         position: static;
